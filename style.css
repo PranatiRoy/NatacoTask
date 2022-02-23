@@ -6,14 +6,16 @@
 }
 /*header style*/
 .icon{
-    padding:3%;
+    padding:5%;
     background-color: black;
     color:white;
-    height:4vh;
+    height:10vh;
+    width:100%;
 }
-.cart-icon{
+.cart-shop{
     float:right;
 }
+
 /*body style*/
 .container{
     background-color: black;
@@ -29,15 +31,16 @@
     justify-content: space-evenly;
 }
 .text{
-    flex-basis: 55%;
+    flex-basis:65%;
 }
 /*Image Position*/
 
 .image img{
-    width:60%;
-    margin-left: 10%;
-    display: cover;
+    width:70%;
+    margin-left: auto;
+    display:content;
     align-items: center;
+    text-align: center;
 }
 
 /*Text Content Style*/
@@ -45,9 +48,11 @@ h2{
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-size:xx-large;
+    width: 70%;
 }
 p{
     margin-bottom: 2%;
+    width:70%;
 }
 .textnote{
     margin:2% 2% 2% 0;
@@ -110,6 +115,9 @@ button{
     opacity: 0.6;
     font-size:70%;
 }
+.review{
+    width:70%;
+}
 .popular-review{
     margin-top:3%;
     margin-left: 3%;
@@ -151,171 +159,21 @@ h3{
     justify-content: center;
 }
 
+
+
  
-
-/*
-
-
-
-
-
-
-.image{
-    display: flex;
-    justify-content: top;
-    background-attachment: fixed;
-    margin:1%;
-    width:50%;
-    
-}
-.productimage{
-    width:50%;
-    margin:10%;
-}
-.product{
-    width:300px;
-    object-fit:contain;
-}
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    background-attachment: fixed;
-    margin:1%;
-    width: 50%;  
+@media only screen and (max-width :1200px){
+    .wrapper{
+        flex-direction: column;
+        height:auto;
+        padding: 5% 0;
+    }
+    .text{
+        padding-top:50px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+    }
 }
 
-
-
-
-
-.review{
-    align-items: left;
-    margin:5%;
-}
-.starreview{
-    background-color: #23ce23;
-    display: inline-block;
-    padding:1%;
-    width:17%
-    text-align:fit-content;
-    border-radius:30px;
-}
-.fa-star{
-    color:white;
-    size: 50%;
-}
-.fa-star-half{
-    color: white;
-}
-.review-note{
-    font-size: 70%;
-    opacity: 0.5;
-}
-.price-box{
-    text-align:left;
-    padding:2%;
-    margin:5%;
-    font-size: 40px;
-    font-family: 'Rubik', sans-serif;
-    
-}
-
-.pack-info{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    margin:0 0 0 5%;
-}
-
-
-.saved{
-    color:#26c526;
-}
-.result{
-    color: orange;
-}
-
-
-.popular-review{
-    font-size: 10%;
-    background-color: blue;
-}
-.month-1pack{
-    padding: 2%;
-    background-color: rgb(65, 64, 64);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width:300px;
-    border-radius: 10px;
-    background-attachment: fixed;
-}
-
-.month-3pack{
-    padding:5%;
-    background-color: rgb(65, 64, 64);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width:300px;
-    border-radius: 10px;
-    background-attachment: fixed;
-}
-.cart{
-    background-color: rgb(22, 32, 48);
-    width:70%;
-    padding:2%;
-    font-family: 'Calibri', sans-serif;
-    text-align: center;
-}
-.price{
-    display: inline;
-    font-size: 40%;
-    line-height: 50%;
-    margin-top: 70%;
-}
-.s2{
-    opacity: .5;
-}
-.savings{
-    opacity: 0.5;
-    font-size: 85%;
-    text-align: left;
-}
-.saved{
-    font-weight: bold;
-    color: #23ce23;
-    font-size: 70%;
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.saved2{
-    font-weight: bold;
-    color: #23ce23;
-    font-size: 80%;
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-h3{
-    font-size: 90%;
-    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-}
-.popular-review{
-    font-size: 40%;
-    background-color: blue;
-    display: inline;
-    padding:2%;
-    border-radius: 10px;
-}
-.popular{
-    text-align: left;
-}.result{
-    font-size: 60%;
-    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    color: orange;
-    margin:0 0 0 5%;
-}
-*/
