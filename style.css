@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/*header style*/
+.icon{
+    padding:3%;
+    background-color: black;
+    color:white;
+    height:4vh;
+}
+.cart-icon{
+    float:right;
+}
+/*body style*/
+.container{
+    background-color: black;
+    color:white;
+    width:100%;
+}
+.wrapper{ 
+    width:80%;
+    height:100vh;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    flex-basis: 55%;
+}
+/*Image Position*/
+
+.image img{
+    width:60%;
+    margin-left: 10%;
+    display: cover;
+    align-items: center;
+}
+
+/*Text Content Style*/
+h2{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size:xx-large;
+}
+p{
+    margin-bottom: 2%;
+}
+.textnote{
+    margin:2% 2% 2% 0;
+    text-align: left;
+    font-family: 'Times new Roman', cursive;
+    font-size: medium;
+}
+
+.starreview{
+    background-color: #23ce23;
+    display: inline-block;
+    padding:1%;
+    width:17%
+    text-align:fit-content;
+    border-radius:30px;
+}
+.fa-star{
+    color:white;
+    size: 50%;
+}
+
+.price-box{
+    text-align:left;
+    margin:2% 2% 2% 0;
+    font-size: 150%;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.month-1pack{
+    background-color: rgb(19, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width:70%;
+    height:19vh;
+    margin-bottom: 2%;
+    padding-left: 2%;
+}
+.month-3pack{
+    background-color: rgb(19, 15, 15);
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+    width:70%;
+    height:19vh;
+    align-items: center;
+    padding-left: 2%;
+}
+button{
+    background-color: rgb(2, 58, 58);
+    color:white;
+    margin-top:2%;
+    border:0;
+    outline:none;
+    padding: 10px;
+    width:70%;
+}
+.click{
+    opacity: 0.6;
+    font-size:70%;
+}
+.popular-review{
+    margin-top:3%;
+    margin-left: 3%;
+    font-size: 10%;
+    background-color: blue;
+    border-radius: 10px;
+    padding :1%;
+    font-weight: bold;
+    width: 45%;
+    text-align: center;
+}
+.savings{
+    opacity: 0.6;
+    font-size: 60%;
+}
+.green{
+    color:#23ce23;
+    font-size: 80%;
+    margin:2% 0 2% 0;
+}
+.yellow{
+    color:orange;
+    font-size: 80%;
+}
+h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 90%;
+    margin:2%;
+    display:flex;
+}
+
+.price{
+    padding:2%;
+    font-size: 100% ;
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
+
+/*
+
+
+
+
+
+
+.image{
+    display: flex;
+    justify-content: top;
+    background-attachment: fixed;
+    margin:1%;
+    width:50%;
+    
+}
+.productimage{
+    width:50%;
+    margin:10%;
+}
+.product{
+    width:300px;
+    object-fit:contain;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-attachment: fixed;
+    margin:1%;
+    width: 50%;  
+}
+
+
+
+
+
+.review{
+    align-items: left;
+    margin:5%;
+}
+.starreview{
+    background-color: #23ce23;
+    display: inline-block;
+    padding:1%;
+    width:17%
+    text-align:fit-content;
+    border-radius:30px;
+}
+.fa-star{
+    color:white;
+    size: 50%;
+}
+.fa-star-half{
+    color: white;
+}
+.review-note{
+    font-size: 70%;
+    opacity: 0.5;
+}
+.price-box{
+    text-align:left;
+    padding:2%;
+    margin:5%;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+.pack-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin:0 0 0 5%;
+}
+
+
+.saved{
+    color:#26c526;
+}
+.result{
+    color: orange;
+}
+
+
+.popular-review{
+    font-size: 10%;
+    background-color: blue;
+}
+.month-1pack{
+    padding: 2%;
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:300px;
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+
+.month-3pack{
+    padding:5%;
+    background-color: rgb(65, 64, 64);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:300px;
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+.cart{
+    background-color: rgb(22, 32, 48);
+    width:70%;
+    padding:2%;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+.price{
+    display: inline;
+    font-size: 40%;
+    line-height: 50%;
+    margin-top: 70%;
+}
+.s2{
+    opacity: .5;
+}
+.savings{
+    opacity: 0.5;
+    font-size: 85%;
+    text-align: left;
+}
+.saved{
+    font-weight: bold;
+    color: #23ce23;
+    font-size: 70%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.saved2{
+    font-weight: bold;
+    color: #23ce23;
+    font-size: 80%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-size: 90%;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.popular-review{
+    font-size: 40%;
+    background-color: blue;
+    display: inline;
+    padding:2%;
+    border-radius: 10px;
+}
+.popular{
+    text-align: left;
+}.result{
+    font-size: 60%;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: orange;
+    margin:0 0 0 5%;
+}
+*/
